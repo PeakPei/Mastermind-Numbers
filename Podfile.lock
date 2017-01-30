@@ -1,0 +1,92 @@
+PODS:
+  - AppInvites (1.0.2):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GooglePlusUtilities (~> 1.0)
+    - GPPCore (~> 1.8)
+  - GGLInstanceID (1.2.1)
+  - Google/Analytics (2.0.4):
+    - Google/Core
+    - GoogleAnalytics (~> 3.12)
+  - Google/AppInvite (2.0.4):
+    - AppInvites (~> 1.0)
+    - Google/Core
+    - Google/SignIn
+  - Google/CloudMessaging (2.0.4):
+    - GGLInstanceID (~> 1.0)
+    - Google/Core
+    - GoogleCloudMessaging (~> 1.0)
+  - Google/Core (2.0.4):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.1)
+  - Google/SignIn (2.0.4):
+    - Google/Core
+    - GoogleSignIn (~> 3.0)
+  - GoogleAnalytics (3.14.0)
+  - GoogleAppUtilities (1.1.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleAuthUtilities (2.0.0):
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleCloudMessaging (1.2.0):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleIPhoneUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleIDFASupport (3.14.0)
+  - GoogleInterchangeUtilities (1.2.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleIPhoneUtilities (1.2.0):
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.0)
+  - GoogleNetworkingUtilities (1.2.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleParsingUtilities (1.1.0):
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+  - GooglePlusUtilities (1.1.0):
+    - GoogleParsingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleSignIn (3.0.0):
+    - GoogleAppUtilities (~> 1.0)
+    - GoogleAuthUtilities (~> 2.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.0)
+  - GoogleSymbolUtilities (1.1.0)
+  - GoogleUtilities (1.3.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GPPCore (1.8.2):
+    - GoogleAppUtilities (~> 1.0)
+    - GoogleAuthUtilities (~> 2.0)
+    - GoogleParsingUtilities (~> 1.0)
+    - GooglePlusUtilities (~> 1.0)
+    - GoogleSignIn (~> 3.0)
+    - GoogleUtilities (~> 1.0)
+
+DEPENDENCIES:
+  - Google/Analytics
+  - Google/AppInvite
+  - Google/CloudMessaging
+  - Google/SignIn
+  - GoogleIDFASupport
+
+SPEC CHECKSUMS:
+  AppInvites: d2852d42e22714a67decc8e5809c8c63cc7b8b8f
+  GGLInstanceID: 4a317044f744281b82cd03015f379899f277cad3
+  Google: d0932824c5b97c96be489aa6f4e8cd6c294d637d
+  GoogleAnalytics: 9be1afdb8deeac4bb5f13ca7f7d3b9db2a1f43dc
+  GoogleAppUtilities: 974598e8ed618c74ead33541d9caffbc3d144266
+  GoogleAuthUtilities: 79e4143c77a08081a480b08df27a066cc8944f43
+  GoogleCloudMessaging: f37ea14dd0f41d4d889c10b5559dd35bbfd9ac26
+  GoogleIDFASupport: aaf8c10bd429abb1c15349d5252244f5eda8ead1
+  GoogleInterchangeUtilities: 427382e42d8a340038bec37c6fdfd316e14b5fa2
+  GoogleIPhoneUtilities: 1c2996078f079d2fc54453dbd13eaf5523666550
+  GoogleNetworkingUtilities: ec1e9911aca811eb18b7144394fee6168b607785
+  GoogleParsingUtilities: db7ded00e831ba27d30c8c51ebc13668e1d33729
+  GooglePlusUtilities: b59634ae4c7e07df40284c83ccd0d04b943481db
+  GoogleSignIn: 3d571172b8603be39dcb1705d8217146bb76fe62
+  GoogleSymbolUtilities: eb3965ea12710569c7b80db198a39e39b18613f7
+  GoogleUtilities: 5c653f7df2eedf0ce0efdfe5afe4f831f375fd7a
+  GPPCore: 0f69740d2bed2417bebfe221b7a3108dde3c1a16
+
+COCOAPODS: 0.39.0
